@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Имеет_Альбом -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Имеет_Альбом">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Исполнитель"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Альбом"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Имеет_жанр -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Имеет_жанр">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Трек"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Жанр"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Исполнен_исполнителем -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Исполнен_исполнителем">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Трек"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Исполнитель"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Относится_к_альбому -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Относится_к_альбому">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Трек"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Альбом"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Содержит_трек -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Содержит_трек">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Плейлист"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Трек"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Создан_пользователем -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Создан_пользователем">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Плейлист"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Пользователь"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Альбом -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Альбом"/>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Жанр -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Жанр"/>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Исполнитель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Исполнитель"/>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Плейлист -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Плейлист"/>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Пользователь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Пользователь"/>
+    
+
+
+    <!-- http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Трек -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/relsa/ontologies/2026/8/untitled-ontology-2#Трек"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
